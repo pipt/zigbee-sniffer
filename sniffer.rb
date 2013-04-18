@@ -48,6 +48,7 @@ end
 Main do
   argument("channel")
   option("device") {
+    argument :required
     default "/dev/tty.usbserial-00001014"
   }
 
