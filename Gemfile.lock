@@ -1,0 +1,22 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    arrayfields (4.9.0)
+    bindata (1.4.5)
+    chronic (0.9.1)
+    fattr (2.2.1)
+    main (5.2.0)
+      arrayfields (>= 4.7.4)
+      chronic (>= 0.6.2)
+      fattr (>= 2.2.0)
+      map (>= 5.1.0)
+    map (6.4.0)
+    serialport (1.1.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bindata
+  main
+  serialport
